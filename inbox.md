@@ -1,0 +1,1 @@
+* also write the conversation history as a separate file with the same file name format ending in `compose.md` and `conversation.md`
