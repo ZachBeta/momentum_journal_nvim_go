@@ -671,7 +671,7 @@ To test our implementation so far:
 1. Build the application:
 
 ```bash
-go build -o momentum cmd/momentum/*.go
+go build -o bin/momentum cmd/momentum/*.go
 ```
 
 2. Run the application:
@@ -681,10 +681,10 @@ go build -o momentum cmd/momentum/*.go
 ./momentum --help
 
 # Create a new journal entry
-./momentum new
+./bin/momentum new
 
 # List journal entries
-./momentum list
+./bin/momentum list
 ```
 
 The application should:
